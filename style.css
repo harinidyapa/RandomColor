@@ -1,0 +1,21 @@
+div{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+button{
+    height: 30px;
+    width: 190px;
+    font-size: 1.05rem;
+    border-radius: 1.1rem;
+    box-shadow: 1.1rem black;
+    transition: 0.3s ease;
+}
+button:hover{
+    box-shadow: 2px 2px 10px black;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+button:active{
+    background-color: grey;
+}
